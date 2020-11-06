@@ -43,7 +43,7 @@ mkdir datasets/mydatasets
 python train.py --label_nc 0 --name mydatasets --loadSize 1024 --dataroot ./datasets/mydatasets --save_epecho_freq 10
 ```
 
-- ``train_A`がRGBカラーなら``--label_nc 0``
+- ``train_A``がRGBカラーなら``--label_nc 0``
 - ``--name mydatasets``は学習モデルの名前を入力
 - ``--batchSize 1``はバッチサイズを指定
 - ``--loadSize 1024``は入力画像のサイズを指定
